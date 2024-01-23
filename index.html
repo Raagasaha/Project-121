@@ -1,0 +1,238 @@
+<html>
+<head>
+ <title>MobileNet VS Google Lens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.7.0/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.jpeg">
+    <center>
+    <h1> Study Between Google Lens or MobileNet </h1>
+<br>
+    
+ <h2 id="text">GOOGLE LENS</h2>
+        <img src="googlelens.png" id="logo">
+    
+        <br>
+        <h3 class="btn btn-danger"> vs </h3>
+        <h2 id="text">MOBILENET</h2>
+        <img src="mobilenet.jpeg" id="logo">
+        <hr>
+        <br>
+</center>
+
+<div id="picBackground_div">
+  <img src="plant.jpg" id="img1"/>
+ 
+  <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+    8" Snake Plant
+</h5>
+  <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+   <span>Flowerpot</span>
+  </h5>
+  <h5>Result</h5>
+  <h4></h4>
+  <hr>
+  <h5>Google Lens was accurate here.</h5>
+  <h4></h4>
+  <br>
+          </div>
+<br>
+          <div id="picBackground_div">
+            <img src="spoon.webp" id="img1">
+            <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+              <span>Silver Plated Standard Spoon </span>
+
+              <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                <span> Lighter</span>
+              
+            </h5>
+          <h5>Result</h5>
+          <h4></h4>
+          <hr>
+          <h5>Google Lens was accurate here.</h5>
+          <h4></h4>
+          <br>
+            
+          
+            
+            </h5>
+                    </div>
+                    
+                    <br>
+                    <div id="picBackground_div">
+                      <img src="couch.jpeg" id="img1">
+                      <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                        <span>Ikea Karlstad Sofa </span>
+                      </h5>
+                    
+                      <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                        <span> Seatbelt</span>
+                      </h5>
+                    </h5>
+                    <h5>Result</h5>
+                    <h4></h4>
+                    
+                    <hr>
+                    <h5>Google Lens was accurate here.</h5>
+                    <h4></h4>
+                    <br>
+                              </div>
+                              
+                              <br>
+                              <div id="picBackground_div">
+                                <img src="watch.jpg" id="img1">
+                                <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                  <span>Luxury Swiss Automatic Watch </span>
+                                </h5>
+                              
+                                <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                  <span> Seatbelt</span>
+                                </h5>
+                                <h5>Result</h5>
+                                <h4></h4>
+                                
+                                <hr>
+                                <h5>Google Lens was accurate here.</h5>
+                                <h4></h4>
+                                <br>
+                                        </div>
+                                        
+                                        <br>
+                                        <div id="picBackground_div">
+                                          <img src="waterbottle.jpeg" id="img1">
+                                          <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b> 
+                                            <span> Stainless Steel Chug Water Bottle</span>
+                                          </h5>
+                                        
+                                          <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                            <span> Water Bottle</span>
+                                          </h5>
+
+                                          <h5>Result</h5>
+                                          <h4></h4>
+                                          <br>
+                                          <hr>
+                                          <h5>Both were accurate here.</h5>
+                                          <h4></h4>
+                                          <br>
+                                                  </div>
+                                                  
+                                                  <br>
+                                                  <div id="picBackground_div">
+                                                    <img src="table.avif" id="img1">
+                                                    <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                                      <span> Extendable Table</span>
+                                                    </h5>
+                                                  
+                                                    <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                                      <span> Couch</span>
+                                                    </h5>
+                                                    <h5>Result</h5>
+                                                    <h4></h4>
+                                                    <br>
+                                                    <hr>
+                                                    <h5>Google Lens was accurate here.</h5>
+                                                    <h4></h4>
+                                                    <br>
+                                                            </div>
+                                                            
+                                                            <br>
+                                                            <div id="picBackground_div">
+                                                              <img src="keyboard.jpeg" id="img1">
+                                                              <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                                                <span> Apple Keyboard Wireless</span>
+                                                              </h5>
+                                                            
+                                                              <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                                                <span> Computer Keyboard</span>
+                                                              </h5>
+                                                              <h5>Result</h5>
+                                                              <h4></h4>
+                                                              <br>
+                                                              <hr>
+                                                              <h5>Both were accurate here.</h5>
+                                                              <h4></h4>
+
+                                                              <br>
+                                                                      </div>
+                                                                      
+                                                                      <br>
+                                                                      <div id="picBackground_div">
+                                                                        <img src="pencil.jpg" id="img1">
+                                                                        <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                                                          <span> Amazon Basics Pencil</span>
+                                                                        </h5>
+                                                                      
+                                                                        <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                                                          <span>Pen </span>
+                                                                        </h5>
+                                                                        <h5>Result</h5>
+                                                                        <h4></h4>
+                                                                        <br>
+                                                                        <hr>
+                                                                        <h5>Google Lens was accurate here.</h5>
+                                                                        <h4></h4>
+                                                                        <br>
+                                                                                </div>
+                                                                                
+                                                                                <br>
+                                                                                <div id="picBackground_div">
+                                                                                  <img src="lamp.jpeg" id="img1">
+                                                                                  <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                                                                    <span>Black Table Lamp </span>
+                                                                                  </h5>
+                                                                                
+                                                                                  <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                                                                    <span> Lamp</span>
+                                                                                  </h5>
+                                                                                  <h5>Result</h5>
+                                                                                  <h4></h4>
+                                                                                  <br>
+                                                                                  <hr>
+                                                                                  <h5>Both were correct here.</h5>
+                                                                                  <h4></h4>
+                                                                                  <br>
+                                                                                     </div>
+                                                                                          
+                                                                                          <br>
+                                                                                          <div id="picBackground_div">
+                                                                                            <img src="fork.jpeg" id="img1">
+                                                                                            <h5 class="btn btn-info">Output on <b>GOOGLE LENS- </b>
+                                                                                              <span>Everyday Flatware Fork </span>
+                                                                                            </h5>
+                                                                                          
+                                                                                            <h5 class="btn btn-warning">Output on <b>MOBILENET- </b>
+                                                                                              <span> Spotlight</span>
+                                                                                            </h5>
+                                                                                            <h5>Result</h5>
+                                                                                            <h4></h4>
+                                                                                            <br>
+                                                                                            <hr>
+                                                                                            <h5>Google Lens was accurate here.</h5>
+                                                                                            <h4></h4>
+                                                                                            <br>
+                                                                                                    </div>
+                                                                                                    
+                                                                                                    <br>
+                                                                                                    <div id="conclusionTag">
+                                                                                                     <h2> Conclusion of Data: </h2>
+                                                                                                     <h3> Google Lens has concluded with out of the 10 images, 10 correct, and 0 incorrect. <br><br>
+                                                                                                      On the other hand, MobileNet has concluded with out of the 10 images, 3 correct, and 7 incorrect.<br> <br>
+                                                                                                      In summary, this case study has shown that Google Lens is more reliable due to more images being accurate.
+                                                                                        
+                                                                                                     </h3>
+                                                                                                    </div>
+          
+
+ 
+       
+
+</body>
+</html>

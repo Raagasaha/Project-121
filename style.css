@@ -1,0 +1,43 @@
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+#text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+#picBackground_div
+{
+        float: none;
+    background: lightblue; 
+    padding: 10px;
+    border-radius: 20px; 
+    color: black;
+    box-shadow:10px 10px 10px purple;
+    height: 500px;
+}
+
+
+#img1 {
+    height: 350px;
+    width:350px;
+}
+
+#conclusionTag
+{
+    float: none;
+    background: turquoise;
+    padding: 10px;
+    border-radius: 25px;
+    height: 250px;
+}
+
+
+
+
